@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Hello-Servelet/01-Hello-Servelet.iml" filepath="$PROJECT_DIR$/01-Hello-Servelet/01-Hello-Servelet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Life-Cycle/02-Life-Cycle.iml" filepath="$PROJECT_DIR$/02-Life-Cycle/02-Life-Cycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Servlet-Mapping/03-Servlet-Mapping.iml" filepath="$PROJECT_DIR$/03-Servlet-Mapping/03-Servlet-Mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Simple-POS/04-Simple-POS.iml" filepath="$PROJECT_DIR$/04-Simple-POS/04-Simple-POS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AAD-JavaEE.iml" filepath="$PROJECT_DIR$/.idea/AAD-JavaEE.iml" />
+    </modules>
+  </component>
+</project>

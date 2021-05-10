@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timers</title>
+</head>
+<body>
+<h1>Async web APIs in JS</h1>
+<ul>
+  <li>AJAX</li>
+  <li>Events</li>
+  <li>Timers</li>
+</ul>
+<button id="btn-stop">stop</button>
+<script>
+ //timers
+
+var btn = document.getElementById("btn-stop");
+ // setTimeout();
+
+ setTimeout(callAfterSomrRTime,3000)
+ function callAfterSomrRTime(){
+     alert("Hello there....")
+ }
+
+//setInterval();
+
+var id =  setInterval(count,2000)
+
+ var i=0;
+     function count(){
+     i++;
+     console.log(i)
+ }
+
+btn.addEventListener("click",function (){
+clearInterval(id);
+})
+
+
+</script>
+</body>
+</html>

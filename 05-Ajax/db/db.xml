@@ -1,0 +1,14 @@
+<customers>
+    <customer>
+        <id>C001</id>
+        <name>Dhanuka</name>
+        <address>Kurunegala</address>
+        <salary>188</salary>
+    </customer>
+    <customer>
+        <id>C002</id>
+        <name>udara</name>
+        <address>moratuwa</address>
+        <salary>200</salary>
+    </customer>
+</customers>

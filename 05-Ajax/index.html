@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="asserts/css/bootstrap.min.css">
+</head>
+<body>
+<header class="container-fluid">
+    <h1 id="display">AJAX</h1>
+</header>
+<section class="container-fluid">
+    <section class="row">
+        <div class="col-md-4">
+            <form>
+                <div>
+                    <label class="form-label " for="id">Customer ID</label>
+                    <input type="text" id="id" class="form-control" name="id">
+                </div>
+                <div>
+                    <label class="form-label " for="name">Customer Name</label>
+                    <input type="text" id="name" class="form-control" name="name">
+                </div>
+                <div>
+                    <label class="form-label " for="address">Customer Address</label>
+                    <input type="text" id="address" class="form-control" name="address">
+                </div>
+                <div>
+                    <label class="form-label " for="salary">Customer Salary</label>
+                    <input type="text" id="salary" class="form-control" name="salary">
+                </div>
+                <div class="btn-group mt-4">
+                    <button id="btnSaveCustomer" type="button" class="btn btn-primary">Save</button>
+                    <button id="btnClear" type="button" class="btn btn-danger">Clear</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-8">
+<table class="table table-bordered table-hover">
+    <thead class="bg-danger text-white">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Salary</th>
+    </tr>
+    </thead>
+</table>
+        </div>
+    </section>
+
+</section>
+
+
+<script src="asserts/js/bootstrap.min.js"></script>
+<script>
+/*    var btn = document.getElementById("btnSaveCustomer");
+    btn.addEventListener("click",function (){
+        var xml = new XMLHttpRequest();
+        xml.open("GET","customer");//404
+        xml.send();
+
+    });*/
+
+
+
+//sending to request file (db.txt) and get ewsponse
+/*    var btn = document.getElementById("btnSaveCustomer");
+    btn.addEventListener("click",function (){
+        var xml = new XMLHttpRequest();
+        console.log(xml.readyState) //0
+
+        xml.open("GET","db/db.txt");//200
+        console.log(xml.readyState)//1
+        xml.send();
+        console.log(xml.readyState)//1
+
+        xml.onreadystatechange = function (){
+            console.log("Event "+xml.readyState)
+            if (xml.readyState==4 && xml.status==200){
+                console.log(xml.response)
+            }
+        }
+    });*/
+    var btn = document.getElementById("btnSaveCustomer");
+    var dis = document.getElementById("display");
+
+
+    btn.addEventListener("click",function (){
+    var xml = new XMLHttpRequest();
+    xml.open("GET","db/db.txt");//200
+    xml.send();
+    xml.onreadystatechange = function (){
+
+        if (xml.readyState==4 && xml.status==200){
+
+            dis.innerText = xml.response;
+
+        }
+    }
+});
+</script>
+</body>
+</html>

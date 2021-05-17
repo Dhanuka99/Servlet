@@ -6,6 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/02-Life-Cycle/02-Life-Cycle.iml" filepath="$PROJECT_DIR$/02-Life-Cycle/02-Life-Cycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Servlet-Mapping/03-Servlet-Mapping.iml" filepath="$PROJECT_DIR$/03-Servlet-Mapping/03-Servlet-Mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-Simple-POS/04-Simple-POS.iml" filepath="$PROJECT_DIR$/04-Simple-POS/04-Simple-POS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-POS-With-AJAX/07-POS-With-AJAX.iml" filepath="$PROJECT_DIR$/07-POS-With-AJAX/07-POS-With-AJAX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-DBCP/08-DBCP.iml" filepath="$PROJECT_DIR$/08-DBCP/08-DBCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-InCP/09-InCP.iml" filepath="$PROJECT_DIR$/09-InCP/09-InCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-FileUpload/10-FileUpload.iml" filepath="$PROJECT_DIR$/10-FileUpload/10-FileUpload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Filters/11-Filters.iml" filepath="$PROJECT_DIR$/11-Filters/11-Filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AAD-JavaEE.iml" filepath="$PROJECT_DIR$/.idea/AAD-JavaEE.iml" />
     </modules>
   </component>

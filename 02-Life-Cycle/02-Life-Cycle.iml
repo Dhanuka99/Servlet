@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.23-bin" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.65" level="application_server_libraries" />
   </component>
 </module>

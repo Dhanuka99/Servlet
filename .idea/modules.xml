@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/10-FileUpload/10-FileUpload.iml" filepath="$PROJECT_DIR$/10-FileUpload/10-FileUpload.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-Filters/11-Filters.iml" filepath="$PROJECT_DIR$/11-Filters/11-Filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AAD-JavaEE.iml" filepath="$PROJECT_DIR$/.idea/AAD-JavaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>
 </project>
